@@ -1,0 +1,6 @@
+Ambulance_ID,Vehicle_Number,Type,Status,Latitude,Longitude,Driver_Name,Driver_Contact,Base_Station,Fuel_Oxygen_Level
+AMB001,TS-09-EA-1081,ALS,AVAILABLE,17.3985,78.4735,Ramesh Yadav,+91 98480 11201,Osmania Trauma Hub,96%
+AMB002,TS-09-EA-1082,BLS,AVAILABLE,17.4325,78.4982,Sumanth Reddy,+91 98480 22302,Secunderabad Gandhi Station,91%
+AMB003,TS-10-EA-1083,ALS,BUSY,17.4150,78.4410,Mohammed Farooq,+91 98480 33403,Banjara Hills Rapid Unit,84%
+AMB004,TS-10-EA-1084,ALS,EN_ROUTE,17.4480,78.3750,Venkatesh Nayak,+91 98480 44504,Cyberabad Emergency Center,88%
+AMB005,TS-08-EA-1085,BLS,MAINTENANCE,17.3620,78.5280,Anji Kumar,+91 98480 55605,Saroornagar EMS Post,62%

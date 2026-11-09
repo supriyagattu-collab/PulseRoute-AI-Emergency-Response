@@ -1,0 +1,97 @@
+# Git Ignore for AI-Based Emergency Response & Ambulance Routing System Monorepo
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Operating System Files
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+.DS_Store
+
+# Node / Frontend / React / Mobile
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Vite & Web Build outputs
+web/dist/
+web/dist-ssr/
+*.local
+
+# React Native / Expo
+mobile/.expo/
+mobile/.expo-shared/
+mobile/web-build/
+mobile/android/
+mobile/ios/
+*.orig.*
+
+# Python / Backend / ML
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Coverage
+.coverage
+.coverage.*
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+.nyc_output/
+
+# Jupyter & ML Notebooks
+.ipynb_checkpoints/
+ml/models/*.pkl
+ml/models/*.joblib
+ml/models/*.onnx
+!ml/models/.gitkeep
+
+# IDE & Editor artifacts
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.sublime-workspace
+*.sublime-project
+.antigravity/
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Exclude old migration backup
+backend/scripts/migrate_sqlite_to_postgres.py.before_safety_update
